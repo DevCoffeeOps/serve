@@ -22,9 +22,6 @@
     "plugins": [
       {
         "name": "next"
-      },
-      {
-        "transform": "ts-runtime-checks"
       }
     ],
     "paths": {
