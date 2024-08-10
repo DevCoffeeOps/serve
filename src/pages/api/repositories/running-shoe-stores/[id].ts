@@ -1,7 +1,8 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-import { createRunningShoeStoreService } from '@/../../load/dist/exports';
-const runningShoeStoreService = createRunningShoeStoreService();
+// example model
+import { createRowService as createRunningStoreService } from '@/../../load/dist/exports';
+const runningShoeStoreService = createRunningStoreService();
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     const { id } = req.query;
